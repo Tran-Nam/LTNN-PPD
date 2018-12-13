@@ -1,0 +1,14 @@
+PRogram Example2;
+var a, b, c;
+procedure gcd(a;b;var d);
+begin
+while a<>b do
+if a> b then a:= a-b;
+else b:= b-a;
+d:=b ;
+end.
+Begin 
+CalL Readln(a); CALl Readln(b);
+CALL gcd(a, b, c);
+Call writeln(c);
+ENd.

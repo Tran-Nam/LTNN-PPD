@@ -1,0 +1,5 @@
+PROGRAM Vidu;
+Begin
+    X:=10
+End..asdacs
+
